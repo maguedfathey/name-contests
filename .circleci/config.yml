@@ -4,8 +4,8 @@ jobs:
     docker:
       - image: circleci/node
       - image: mongo
-          environment: 
-            MONGO_DB: contests
+        environment: 
+          MONGO_DB: contests
     
     steps:
       - checkout
